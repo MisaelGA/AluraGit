@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+    function saltarLinea(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase){
+        saltarLinea();
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var cod = ['a', 'e', 'i', 'o', 'u'];
+    var letraCodificada = ['ai', 'enter', 'imes', 'ober', 'ufat'];
+    var palabra = prompt("Intrpduzca la palabra a encriptar: ");
+    var palabraCodificada = [];
+
+    var i = 0; //Inicializar bucle
+
+    imprimir(palabra);
+
+    for(i=0; i<length.palabra; i++){
+        if(palabra[i] == cod[0]){
+            palabra[i] = letraCodificada[0];
+            break;
+        }
+    }
+
+    imprimir(palabra);
+
+
+</script>
